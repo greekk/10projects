@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.main-container {
+    border: 2px solid black;
+    height: 200px;
+    text-align: center;
+    width: 90%;
+}
+
+.header, .footer {
+    border: inherit;
+    border-color: blueviolet;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+
+.content {
+    border: inherit;
+    border-color: aqua;
+    float: left;
+    line-height: 80px;
+    width: 80%;
+}
+
+.right-bar {
+    border: inherit;
+    border-color: aqua;
+    float: right;
+    line-height: 150px;
+    width: 20%;
+}
+
+.footer{
+    clear: left;
+}
